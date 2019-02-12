@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Required Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Title is Here -->
+	<title>Minha Padaria  - Signup Store</title>
+	<link rel="shortcut icon" href="images/favicon.png"/>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet"> 
+	<!-- fonts awesome css -->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css"/>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+	<body>
+       <!-- Header Section start -->
+        <header class="signup_header">
+            <div class="container">
+                 <nav class="navbar navbar-expand-lg navbar-light">
+                  <a class="navbar-brand" href="#"><img src="images/logo.jpg" class="img-fluid" alt="logo image"/></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse custom_nav" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.html">home</a>
+                      </li>
+                       <li class="nav-item active">
+                        <a class="nav-link" href="browse.html">browse restaurant</a>
+                      </li>
+                       <li class="nav-item active">
+                        <a class="nav-link" href="restaurant.html">restaurant signup</a>
+                      </li>
+                       <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">contact</a>
+                      </li>
+                       <li class="nav-item active">
+                        <a class="nav-link" href="signup.html">login &amp; signup</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="signup_heading">
+                            <h1>Login and Registration</h1>
+                            <p>Sign up to place your order</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Section end -->
+        <!-- Registration Section start -->
+        <section class="registration_form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+	<div class="inner-pages account-page">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="account-box">
+					<div class="account-box--inner" style="">
+						<h3><img src="images/login.png" alt="login image"/> Log in to your account</h3>
+						<div class="account-box__content">
+							<form id="forms" class="forms form" method="POST">
+							 <input type="hidden" value="clientLogin" name="action" id="action" />							 <input type="hidden" value="store" name="currentController" id="currentController" /> 
+							 <input type="hidden" value="9c2fb1028c6471889076d25d08e88f7874239f91" name="YII_CSRF_TOKEN" id="YII_CSRF_TOKEN" />       							 
+							  <div class="form--field">
+								 <input class="form--input" placeholder="Mobile number or email" required="required" type="text" value="" name="username" id="username" />								 </div>
+							  
+							  <div class="form--field">
+								 <input class="form--input" placeholder="Password" required="required" type="password" value="" name="password" id="password" />								 </div> 
+							  <div class="form--actions">
+									<div class="row">
+										<div class="col-md-7 col-xs-12">
+											<a href="javascript:;" class="forgot-pass-link2 link link--primary">Forgot password</a>
+										</div>
+										<div class="col-md-5 col-xs-12">
+											<button type="submit" class="button button--full button--primary">Login</button>
+										</div>
+									</div>											
+								</div>	  
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="account-box">
+					
+					<div class="account-box--inner">
+						
+						<h3><img src="images/register.png" alt="register image"/> Sign up</h3>
+						
+						<div class="account-box__content">
+														
+							<form id="form-signup" class="form-signup uk-panel uk-panel-box uk-form form" method="POST">
+							 <input type="hidden" value="clientRegistrationModal" name="action" id="action" />							 <input type="hidden" value="store" name="currentController" id="currentController" />							 <input type="hidden" value="2" name="single_page" id="single_page" />    
+							 <input type="hidden" value="9c2fb1028c6471889076d25d08e88f7874239f91" name="YII_CSRF_TOKEN" id="YII_CSRF_TOKEN" />							 <input type="hidden" value="2" name="theme_enabled_email_verification" id="theme_enabled_email_verification" />   
+							  
+							   <div class="form--field">
+								 <input class="form--input" placeholder="First Name" required="required" type="text" value="" name="first_name" id="first_name" />								 </div> 
+							  
+							  <div class="form--field">
+								 <input class="form--input" placeholder="Last Name" required="required" type="text" value="" name="last_name" id="last_name" />								 </div> 
+							  
+							  <div class="form--field">
+								 <input class="grey-fields mobile_inputs form--input" placeholder="Phone" required="required" type="text" value="" name="contact_phone" id="contact_phone" />								 </div> 
+							  
+							 <div class="form--field">
+								 <input class="form--input" placeholder="Email address" required="required" type="text" value="" name="email_address" id="email_address" />								 </div>	   
+							  
+							  <div class="form--field">
+								 <input class="form--input" placeholder="Password" required="required" type="password" value="" name="password" id="password" />								 </div>	   
+							 
+							  <div class="form--field">
+								 <input class="form--input" placeholder="Confirm Password" required="required" type="password" value="" name="cpassword" id="cpassword" />								 </div>    
+							  
+							  <div class="form--field">	 		     
+							<div class="row top10">
+								<div class="col-md-12 ">	
+								<input class="grey-fields" required="required" placeholder="CPF" type="text" value="" name="custom_field2" id="custom_field2" />	     
+								</div>
+								</div> <!--row-->	        
+				        		</div> 
+							 <p class="form--field__text text-uppercase">
+							 By creating an account, you agree to receive sms from vendor.</p> 
+							 <div class="form--field">
+							 <div class="form-check">
+							   <input value="2" class="form-check-input input" required="required" id="exampleCheck1" type="checkbox" name="terms_n_condition" />							   <label class='form-check-label' for='exampleCheck1'>
+							   I agree with<a href="http://" target="_blank">Terms & Conditions</a>							   </label>
+							 </div>
+							 </div>							 							 
+							 <div class="form--actions">
+									<div class="row">
+										<div class="col-12 text-center">
+											<button type="submit" class="button button--primary">Create an account</button>
+										</div>
+									</div>											
+								</div>
+							</form>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>	
+
+                </div>
+            </div>
+        </section>
+        <!-- Registration Section end -->
+         <!-- Footer Section start -->
+      <footer class="footer_area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                      <div class="footer_heading">
+                          <h3>Subscribe to our newsletter!</h3>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                 <div class="col-md-3"></div>
+                  <div class="col-md-4">
+                      <form class="subscribe_form">
+                          <div class="input-group">
+                              <input type="email" class="form-control" name="email" placeholder="E-mail">
+                          
+                          </div>
+                      </form>
+                  </div>
+                  <div class="col-md-2">
+                        <button type="button" class="btn btn-primary subscribe_button">subscribe</button>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                      <div class="footer_bottom_heading">
+                          <h3>Minha<span>Padaria</span></h3>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+      <!-- Footer Section end -->
+        
+        
+         <!-- jquery main file -->
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- main js file -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
